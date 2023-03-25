@@ -1,0 +1,13 @@
+{
+    "name": "Network",
+    "alias": "network",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Network\\Providers\\NetworkServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

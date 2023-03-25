@@ -1,0 +1,21 @@
+{
+    "Agency": true,
+    "Auth": true,
+    "Network": true,
+    "Market": true,
+    "Profile": true,
+    "Wallet": true,
+    "Callback": true,
+    "Trading": true,
+    "Api": true,
+    "History": true,
+    "Support": true,
+    "Robot": true,
+    "Commission": true,
+    "TelegramBot": true,
+    "AntiCheat": true,
+    "Settings": true,
+    "Expert": true,
+    "CopyTrading": true,
+    "Autotrade": true
+}

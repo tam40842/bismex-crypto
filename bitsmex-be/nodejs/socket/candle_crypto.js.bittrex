@@ -1,0 +1,39 @@
+var bittrex = require('node-bittrex-api');
+bittrex.options({
+	'apikey' : '<key>',
+	'apisecret' : '<secret>',
+});
+const db = require('../models/db.js');
+var moment = require("moment-timezone");
+const market = require('../models/market');
+
+const PAIR_TYPE = "CRYPTO";
+
+function getPrice(callback) {
+    setInterval(function() {
+        market.getListByType(PAIR_TYPE, (data) => {
+            var arrMkn = [];
+            if (data) {
+                for (let i = 0; i < data.length; i++) {
+                    arrMkn.push(data[i].market_name);
+                    symbol = "USDT-" + data[i].market_name.replace("USDT", "");
+                    bittrex.getticker( { market : symbol }, function( ticker ) {
+                        if(ticker.success) {
+                            callback({
+                                marketname: data[i].market_name,
+                                random: data[i].random,
+                                price: ticker.result.Ask
+                            })
+                        } else {
+                            callback(false);
+                        }
+                    });
+                }
+            }
+        })
+    }, 2000);
+}
+
+module.exports = {
+    getPrice,
+}

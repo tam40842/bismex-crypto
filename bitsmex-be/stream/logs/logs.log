@@ -1,0 +1,274 @@
+2021-07-02 18:14:51 [info]: Start Server...
+2021-07-02 18:14:52 [info]: Connection has been established successfully.
+2021-07-02 18:14:52 [info]: Init job process successed
+2021-07-02 18:14:52 [info]: Connection to Redis succeeded.
+2021-07-02 18:14:52 [info]: ** Server is listening on localhost:3002, open your browser on http://localhost:3002 **
+2021-07-02 18:14:52 [info]: Connect to stream BTCUSDT succeed!
+2021-07-02 18:14:52 [info]: Connect to stream ETHUSDT succeed!
+2021-07-02 18:15:19 [info]: Start Server...
+2021-07-02 18:15:20 [info]: Connection has been established successfully.
+2021-07-02 18:15:20 [info]: Init job process successed
+2021-07-02 18:15:20 [info]: Connection to Redis succeeded.
+2021-07-02 18:15:20 [info]: ** Server is listening on localhost:3002, open your browser on http://localhost:3002 **
+2021-07-02 18:15:20 [info]: Connect to stream ETHUSDT succeed!
+2021-07-02 18:15:20 [info]: Connect to stream BTCUSDT succeed!
+2021-07-02 18:16:44 [info]: Start Server...
+2021-07-02 18:16:45 [info]: Connection has been established successfully.
+2021-07-02 18:16:45 [info]: Init job process successed
+2021-07-02 18:16:45 [info]: Connection to Redis succeeded.
+2021-07-02 18:16:45 [info]: ** Server is listening on localhost:3002, open your browser on http://localhost:3002 **
+2021-07-02 18:16:46 [info]: Connect to stream BTCUSDT succeed!
+2021-07-02 18:16:46 [info]: Connect to stream ETHUSDT succeed!
+2021-07-02 18:17:07 [info]: Start Server...
+2021-07-02 18:17:08 [info]: Connection has been established successfully.
+2021-07-02 18:17:08 [info]: Init job process successed
+2021-07-02 18:17:08 [info]: Connection to Redis succeeded.
+2021-07-02 18:17:08 [info]: ** Server is listening on localhost:3002, open your browser on http://localhost:3002 **
+2021-07-02 18:17:08 [info]: Connect to stream BTCUSDT succeed!
+2021-07-02 18:17:08 [info]: Connect to stream ETHUSDT succeed!
+2021-07-08 10:22:59 [info]: Start Server...
+2021-07-08 10:22:59 [info]: Connection has been established successfully.
+2021-07-08 10:22:59 [info]: Init job process successed
+2021-07-08 10:22:59 [info]: Connection to Redis succeeded.
+2021-07-08 10:22:59 [info]: ** Server is listening on localhost:3002, open your browser on http://localhost:3002 **
+2021-07-08 10:22:59 [info]: Connect to stream BTCUSDT succeed!
+2021-07-08 10:23:00 [info]: Connect to stream ETHUSDT succeed!
+2021-07-09 11:42:53 [info]: Start Server...
+2021-07-09 11:42:53 [info]: Connection has been established successfully.
+2021-07-09 11:42:53 [info]: Init job process successed
+2021-07-09 11:42:53 [info]: Connection to Redis succeeded.
+2021-07-09 11:42:53 [info]: ** Server is listening on localhost:3002, open your browser on http://localhost:3002 **
+2021-07-09 11:42:53 [info]: Connect to stream BTCUSDT succeed!
+2021-07-09 11:42:54 [info]: Connect to stream ETHUSDT succeed!
+2021-07-14 07:15:58 [info]: Start Server...
+2021-07-14 07:15:58 [info]: Connection has been established successfully.
+2021-07-14 07:15:58 [info]: Init job process successed
+2021-07-14 07:15:58 [info]: Connection to Redis succeeded.
+2021-07-14 07:15:58 [info]: ** Server is listening on localhost:3002, open your browser on http://localhost:3002 **
+2021-07-14 07:15:59 [info]: Connect to stream ETHUSDT succeed!
+2021-07-14 07:15:59 [info]: Connect to stream BTCUSDT succeed!
+2021-07-14 10:22:34 [info]: Start Server...
+2021-07-14 10:22:34 [info]: Connection has been established successfully.
+2021-07-14 10:22:34 [info]: Init job process successed
+2021-07-14 10:22:34 [info]: Connection to Redis succeeded.
+2021-07-14 10:22:34 [info]: ** Server is listening on localhost:3002, open your browser on http://localhost:3002 **
+2021-07-14 10:22:34 [info]: Connect to stream ETHUSDT succeed!
+2021-07-14 10:22:34 [info]: Connect to stream BTCUSDT succeed!
+2021-07-14 13:57:24 [info]: Start Server...
+2021-07-14 13:57:24 [info]: Connection has been established successfully.
+2021-07-14 13:57:24 [info]: Init job process successed
+2021-07-14 13:57:24 [info]: Connection to Redis succeeded.
+2021-07-14 13:57:24 [info]: ** Server is listening on localhost:3002, open your browser on http://localhost:3002 **
+2021-07-14 13:57:25 [info]: Connect to stream BTCUSDT succeed!
+2021-07-14 13:57:25 [info]: Connect to stream ETHUSDT succeed!
+2021-07-14 14:22:12 [info]: Start Server...
+2021-07-14 14:22:12 [info]: Connection has been established successfully.
+2021-07-14 14:22:12 [info]: Init job process successed
+2021-07-14 14:22:12 [info]: Connection to Redis succeeded.
+2021-07-14 14:22:12 [info]: ** Server is listening on localhost:3002, open your browser on http://localhost:3002 **
+2021-07-14 14:22:13 [info]: Connect to stream BTCUSDT succeed!
+2021-07-14 14:22:13 [info]: Connect to stream ETHUSDT succeed!
+2021-07-16 08:38:44 [info]: Start Server...
+2021-07-16 08:38:44 [info]: Connection has been established successfully.
+2021-07-16 08:38:44 [info]: Init job process successed
+2021-07-16 08:38:44 [info]: Connection to Redis succeeded.
+2021-07-16 08:38:44 [info]: ** Server is listening on localhost:3002, open your browser on http://localhost:3002 **
+2021-07-16 08:38:44 [info]: Connect to stream ETHUSDT succeed!
+2021-07-16 08:38:44 [info]: Connect to stream BTCUSDT succeed!
+2021-07-16 15:26:27 [info]: Start Server...
+2021-07-16 15:26:27 [info]: Connection has been established successfully.
+2021-07-16 15:26:27 [info]: Init job process successed
+2021-07-16 15:26:27 [info]: Connection to Redis succeeded.
+2021-07-16 15:26:27 [info]: ** Server is listening on localhost:3002, open your browser on http://localhost:3002 **
+2021-07-16 15:26:28 [info]: Connect to stream ETHUSDT succeed!
+2021-07-16 15:26:28 [info]: Connect to stream BTCUSDT succeed!
+2021-07-16 15:30:28 [info]: Start Server...
+2021-07-16 15:30:28 [info]: Connection has been established successfully.
+2021-07-16 15:30:28 [info]: Init job process successed
+2021-07-16 15:30:28 [info]: Connection to Redis succeeded.
+2021-07-16 15:30:28 [info]: ** Server is listening on localhost:3002, open your browser on http://localhost:3002 **
+2021-07-16 15:30:28 [info]: Connect to stream ETHUSDT succeed!
+2021-07-16 15:30:28 [info]: Connect to stream BTCUSDT succeed!
+2021-07-17 03:49:19 [info]: Start Server...
+2021-07-17 03:49:19 [info]: Connection has been established successfully.
+2021-07-17 03:49:19 [info]: Init job process successed
+2021-07-17 03:49:19 [info]: Connection to Redis succeeded.
+2021-07-17 03:49:19 [info]: ** Server is listening on localhost:3002, open your browser on http://localhost:3002 **
+2021-07-17 03:49:19 [info]: Connect to stream ETHUSDT succeed!
+2021-07-17 03:49:19 [info]: Connect to stream BTCUSDT succeed!
+2021-07-17 09:48:04 [info]: Start Server...
+2021-07-17 09:48:04 [info]: Connection has been established successfully.
+2021-07-17 09:48:04 [info]: Init job process successed
+2021-07-17 09:48:04 [info]: Connection to Redis succeeded.
+2021-07-17 09:48:04 [info]: ** Server is listening on localhost:3002, open your browser on http://localhost:3002 **
+2021-07-17 09:48:05 [info]: Connect to stream BTCUSDT succeed!
+2021-07-17 09:48:05 [info]: Connect to stream ETHUSDT succeed!
+2021-07-17 15:22:10 [info]: Start Server...
+2021-07-17 15:22:11 [info]: Connection has been established successfully.
+2021-07-17 15:22:11 [info]: Init job process successed
+2021-07-17 15:22:11 [info]: Connection to Redis succeeded.
+2021-07-17 15:22:11 [info]: ** Server is listening on localhost:3002, open your browser on http://localhost:3002 **
+2021-07-17 15:22:11 [info]: Connect to stream ETHUSDT succeed!
+2021-07-17 15:22:11 [info]: Connect to stream BTCUSDT succeed!
+2021-07-21 02:52:11 [info]: Start Server...
+2021-07-21 02:52:11 [info]: Connection has been established successfully.
+2021-07-21 02:52:11 [info]: Init job process successed
+2021-07-21 02:52:11 [info]: Connection to Redis succeeded.
+2021-07-21 02:52:11 [info]: ** Server is listening on localhost:3002, open your browser on http://localhost:3002 **
+2021-07-21 02:52:12 [info]: Connect to stream BTCUSDT succeed!
+2021-07-21 02:52:12 [info]: Connect to stream ETHUSDT succeed!
+2021-07-21 05:16:08 [info]: Start Server...
+2021-07-21 05:16:08 [info]: Connection has been established successfully.
+2021-07-21 05:16:08 [info]: Init job process successed
+2021-07-21 05:16:08 [info]: Connection to Redis succeeded.
+2021-07-21 05:16:08 [info]: ** Server is listening on localhost:3002, open your browser on http://localhost:3002 **
+2021-07-21 05:16:09 [info]: Connect to stream BTCUSDT succeed!
+2021-07-21 05:16:09 [info]: Connect to stream ETHUSDT succeed!
+2021-07-21 08:19:34 [info]: Start Server...
+2021-07-21 08:19:34 [info]: Connection has been established successfully.
+2021-07-21 08:19:34 [info]: Init job process successed
+2021-07-21 08:19:34 [info]: Connection to Redis succeeded.
+2021-07-21 08:19:34 [info]: ** Server is listening on localhost:3002, open your browser on http://localhost:3002 **
+2021-07-21 08:19:35 [info]: Connect to stream BTCUSDT succeed!
+2021-07-21 08:19:35 [info]: Connect to stream ETHUSDT succeed!
+2021-07-21 09:58:46 [info]: Start Server...
+2021-07-21 09:58:46 [info]: Connection has been established successfully.
+2021-07-21 09:58:46 [info]: Init job process successed
+2021-07-21 09:58:46 [info]: Connection to Redis succeeded.
+2021-07-21 09:58:46 [info]: ** Server is listening on localhost:3002, open your browser on http://localhost:3002 **
+2021-07-21 09:58:47 [info]: Connect to stream BTCUSDT succeed!
+2021-07-21 09:58:47 [info]: Connect to stream ETHUSDT succeed!
+2021-07-21 10:55:03 [info]: Start Server...
+2021-07-21 10:55:03 [info]: Connection has been established successfully.
+2021-07-21 10:55:03 [info]: Init job process successed
+2021-07-21 10:55:03 [info]: Connection to Redis succeeded.
+2021-07-21 10:55:03 [info]: ** Server is listening on localhost:3002, open your browser on http://localhost:3002 **
+2021-07-21 10:55:04 [info]: Connect to stream ETHUSDT succeed!
+2021-07-21 10:55:04 [info]: Connect to stream BTCUSDT succeed!
+2021-07-22 06:04:03 [info]: Start Server...
+2021-07-22 06:04:03 [info]: Connection has been established successfully.
+2021-07-22 06:04:03 [info]: Init job process successed
+2021-07-22 06:04:03 [info]: Connection to Redis succeeded.
+2021-07-22 06:04:03 [info]: ** Server is listening on localhost:3002, open your browser on http://localhost:3002 **
+2021-07-22 06:04:04 [info]: Connect to stream BTCUSDT succeed!
+2021-07-22 06:04:04 [info]: Connect to stream ETHUSDT succeed!
+2021-07-23 15:09:36 [info]: Start Server...
+2021-07-23 15:09:36 [info]: Connection has been established successfully.
+2021-07-23 15:09:36 [info]: Init job process successed
+2021-07-23 15:09:36 [info]: Connection to Redis succeeded.
+2021-07-23 15:09:36 [info]: ** Server is listening on localhost:3002, open your browser on http://localhost:3002 **
+2021-07-23 15:09:37 [info]: Connect to stream ETHUSDT succeed!
+2021-07-23 15:09:37 [info]: Connect to stream BTCUSDT succeed!
+2021-07-24 07:33:41 [info]: Start Server...
+2021-07-24 07:33:41 [info]: Connection has been established successfully.
+2021-07-24 07:33:41 [info]: Init job process successed
+2021-07-24 07:33:41 [info]: Connection to Redis succeeded.
+2021-07-24 07:33:41 [info]: ** Server is listening on localhost:3002, open your browser on http://localhost:3002 **
+2021-07-24 07:33:42 [info]: Connect to stream ETHUSDT succeed!
+2021-07-24 07:33:42 [info]: Connect to stream BTCUSDT succeed!
+2021-07-24 11:36:03 [info]: Start Server...
+2021-07-24 11:36:03 [info]: Connection has been established successfully.
+2021-07-24 11:36:03 [info]: Init job process successed
+2021-07-24 11:36:03 [info]: Connection to Redis succeeded.
+2021-07-24 11:36:03 [info]: ** Server is listening on localhost:3002, open your browser on http://localhost:3002 **
+2021-07-24 11:36:04 [info]: Connect to stream ETHUSDT succeed!
+2021-07-24 11:36:04 [info]: Connect to stream BTCUSDT succeed!
+2021-07-24 12:04:23 [info]: Start Server...
+2021-07-24 12:04:23 [info]: Connection has been established successfully.
+2021-07-24 12:04:23 [info]: Init job process successed
+2021-07-24 12:04:23 [info]: Connection to Redis succeeded.
+2021-07-24 12:04:23 [info]: ** Server is listening on localhost:3002, open your browser on http://localhost:3002 **
+2021-07-24 12:04:24 [info]: Connect to stream ETHUSDT succeed!
+2021-07-24 12:04:24 [info]: Connect to stream BTCUSDT succeed!
+2021-07-28 06:21:45 [info]: Start Server...
+2021-07-28 06:21:45 [info]: Connection has been established successfully.
+2021-07-28 06:21:45 [info]: Init job process successed
+2021-07-28 06:21:45 [info]: Connection to Redis succeeded.
+2021-07-28 06:21:45 [info]: ** Server is listening on localhost:3002, open your browser on http://localhost:3002 **
+2021-07-28 06:21:46 [info]: Connect to stream BTCUSDT succeed!
+2021-07-28 06:21:46 [info]: Connect to stream ETHUSDT succeed!
+2021-07-31 13:28:02 [info]: Connect to stream BTCUSDT succeed!
+2021-07-31 15:26:03 [info]: Connect to stream ETHUSDT succeed!
+2021-07-31 21:50:02 [info]: Connect to stream BTCUSDT succeed!
+2021-08-09 07:48:38 [info]: Start Server...
+2021-08-09 07:48:38 [info]: Connection has been established successfully.
+2021-08-09 07:48:38 [info]: Init job process successed
+2021-08-09 07:48:38 [info]: Connection to Redis succeeded.
+2021-08-09 07:48:38 [info]: ** Server is listening on localhost:3002, open your browser on http://localhost:3002 **
+2021-08-09 07:48:39 [info]: Connect to stream ETHUSDT succeed!
+2021-08-09 07:48:39 [info]: Connect to stream BTCUSDT succeed!
+2021-08-09 13:37:48 [info]: Start Server...
+2021-08-09 13:37:48 [info]: Connection has been established successfully.
+2021-08-09 13:37:48 [info]: Init job process successed
+2021-08-09 13:37:48 [info]: Connection to Redis succeeded.
+2021-08-09 13:37:48 [info]: ** Server is listening on localhost:3002, open your browser on http://localhost:3002 **
+2021-08-09 13:37:49 [info]: Connect to stream ETHUSDT succeed!
+2021-08-09 13:37:49 [info]: Connect to stream BTCUSDT succeed!
+2021-08-10 03:44:07 [info]: Start Server...
+2021-08-10 03:44:07 [info]: Connection has been established successfully.
+2021-08-10 03:44:07 [info]: Init job process successed
+2021-08-10 03:44:07 [info]: Connection to Redis succeeded.
+2021-08-10 03:44:07 [info]: ** Server is listening on localhost:3002, open your browser on http://localhost:3002 **
+2021-08-10 03:44:08 [info]: Connect to stream ETHUSDT succeed!
+2021-08-10 03:44:08 [info]: Connect to stream BTCUSDT succeed!
+2021-08-19 00:00:04 [info]: Connect to stream BTCUSDT succeed!
+2021-08-19 00:02:04 [info]: Connect to stream ETHUSDT succeed!
+2021-08-21 02:31:04 [info]: Connect to stream BTCUSDT succeed!
+2021-08-21 04:46:04 [info]: Connect to stream ETHUSDT succeed!
+2021-08-21 08:58:04 [info]: Connect to stream BTCUSDT succeed!
+2021-09-08 08:47:54 [info]: Connect to stream BTCUSDT succeed!
+2021-09-08 08:47:56 [info]: Connect to stream ETHUSDT succeed!
+2021-09-08 09:06:38 [info]: Connect to stream BTCUSDT succeed!
+2021-09-08 09:48:02 [info]: Connect to stream ETHUSDT succeed!
+2021-09-08 14:59:45 [info]: Start Server...
+2021-09-08 14:59:45 [error]: Unable to connect to the database:
+2021-09-08 14:59:48 [info]: Start Server...
+2021-09-08 14:59:48 [info]: Connection has been established successfully.
+2021-09-08 14:59:48 [info]: Init job process successed
+2021-09-08 14:59:48 [info]: Connection to Redis succeeded.
+2021-09-08 14:59:48 [info]: ** Server is listening on localhost:3002, open your browser on http://localhost:3002 **
+2021-09-08 14:59:49 [info]: Connect to stream BTCUSDT succeed!
+2021-09-08 14:59:49 [info]: Connect to stream ETHUSDT succeed!
+2021-09-08 15:18:25 [info]: Start Server...
+2021-09-08 15:18:26 [info]: Connection has been established successfully.
+2021-09-08 15:18:26 [info]: Init job process successed
+2021-09-08 15:18:26 [info]: Connection to Redis succeeded.
+2021-09-08 15:18:26 [info]: ** Server is listening on localhost:3002, open your browser on http://localhost:3002 **
+2021-09-08 15:18:26 [info]: Connect to stream BTCUSDT succeed!
+2021-09-08 15:18:26 [info]: Connect to stream ETHUSDT succeed!
+2021-09-08 15:29:41 [info]: Start Server...
+2021-09-08 15:29:41 [info]: Connection has been established successfully.
+2021-09-08 15:29:41 [info]: Init job process successed
+2021-09-08 15:29:41 [info]: Connection to Redis succeeded.
+2021-09-08 15:29:41 [info]: ** Server is listening on localhost:3002, open your browser on http://localhost:3002 **
+2021-09-08 15:29:42 [info]: Connect to stream BTCUSDT succeed!
+2021-09-08 15:29:42 [info]: Connect to stream ETHUSDT succeed!
+2021-09-08 15:31:49 [info]: Start Server...
+2021-09-08 15:31:49 [info]: Connection has been established successfully.
+2021-09-08 15:31:49 [info]: Init job process successed
+2021-09-08 15:31:49 [info]: Connection to Redis succeeded.
+2021-09-08 15:31:49 [info]: ** Server is listening on localhost:3002, open your browser on http://localhost:3002 **
+2021-09-08 15:31:50 [info]: Connect to stream BTCUSDT succeed!
+2021-09-08 15:31:50 [info]: Connect to stream ETHUSDT succeed!
+2021-09-10 01:14:01 [info]: Connect to stream ETHUSDT succeed!
+2021-09-10 01:18:01 [info]: Connect to stream BTCUSDT succeed!
+2021-09-16 03:24:52 [info]: Start Server...
+2021-09-16 03:24:52 [error]: Unable to connect to the database:
+2021-09-16 03:24:55 [info]: Start Server...
+2021-09-16 03:24:56 [error]: Unable to connect to the database:
+2021-09-16 03:24:59 [info]: Start Server...
+2021-09-16 03:24:59 [error]: Unable to connect to the database:
+2021-09-16 03:25:03 [info]: Start Server...
+2021-09-16 03:25:03 [info]: Connection has been established successfully.
+2021-09-16 03:25:03 [info]: Init job process successed
+2021-09-16 03:25:03 [info]: Connection to Redis succeeded.
+2021-09-16 03:25:03 [info]: ** Server is listening on localhost:3002, open your browser on http://localhost:3002 **
+2021-09-16 03:25:03 [info]: Connect to stream ETHUSDT succeed!
+2021-09-16 03:25:03 [info]: Connect to stream BTCUSDT succeed!
+2021-09-16 05:36:23 [info]: Start Server...
+2021-09-16 05:36:23 [info]: Connection has been established successfully.
+2021-09-16 05:36:23 [info]: Init job process successed
+2021-09-16 05:36:23 [info]: Connection to Redis succeeded.
+2021-09-16 05:36:23 [info]: ** Server is listening on localhost:3002, open your browser on http://localhost:3002 **
+2021-09-16 05:36:24 [info]: Connect to stream ETHUSDT succeed!
+2021-09-16 05:36:24 [info]: Connect to stream BTCUSDT succeed!

@@ -1,0 +1,91 @@
+<?php
+namespace App\Currencies;
+
+use Illuminate\Support\Facades\Cache;
+use App\Coinbase;
+
+class BTC {
+
+    protected $coinbase;
+    public $symbol;
+
+    public function __construct() {
+        $this->coinbase = new Coinbase();
+        $this->symbol = 'BTC';
+    }
+
+    public function account() {
+        $list_account = $this->coinbase->getAccounts();
+		for($i = 0; $i < count($list_account); $i++) {
+			if(strtoupper($list_account[$i]['currency']) == $this->symbol) {
+				$account = $list_account[$i];
+			}
+		}
+		$status = ($account['id']) ? array('status' => true, 'id' => $account['id'], 'symbol' => $this->symbol, 'balance' => $account['balance']['amount']) : array('status' => false);
+		return json_encode($status);
+    }
+    
+    public function generateAddress($label = '') {
+		$account = $this->account();
+        $account = json_decode($this->account());
+        $callback_url = route('api.coinbase');
+        $result = $this->coinbase->createWallet($account->id, $label, $callback_url);
+        $status = (!empty($result)) ? array('status' => true, 'symbol' => $this->symbol, 'address' => $result['address'], 'address_id' => $result['id']) : array('status' => false);
+        return json_encode($status);
+    }
+
+	public function validator($address) {
+        $validate = preg_match('/^[1,3][a-zA-Z1-9]{32,34}$/i', $address);
+        return $validate;
+    }
+    
+    public function checkpaid($address_id) {
+		$account = json_decode($this->account());
+        $result = $this->coinbase->getTransactionsAddress($account->id, $address_id);
+		$data = (!empty($result) && $result[0]['network']['status'] == 'confirmed') ? array('status' => true, 'amount' => $result[0]['amount']['amount'], 'batch' => $result[0]['network']['hash']) : array('status' => false);
+		return json_encode($data);
+	}
+
+    
+    public function rate() {
+        try {
+            $get = json_decode(file_get_contents('https://api.binance.com/api/v1/ticker/24hr?symbol=BTCUSDT'));
+            return $get->bidPrice;
+        } catch (Exception $e) {
+            $price = 0;
+        }
+        return $price;
+    }
+    
+    
+    public function percent_change() {
+        try {
+            $get = json_decode(file_get_contents('https://api.binance.com/api/v1/ticker/24hr?symbol=BTCUSDT'));
+            return $get;
+        } catch (Exception $e) {
+            
+        }
+        return false;
+    }
+    
+    public function transactionLink($address) {
+		return 'https://blockchain.info/address/'.$address;
+    }
+
+    public function hashLink($tx_id) {
+        $url = 'https://www.blockchain.com/btc/tx/'.$tx_id;
+        return $url;
+    }    
+    
+    public function addressLink($address) {
+        $url = 'https://www.blockchain.com/btc/address/'.$address;
+        return $url;
+    }    
+    
+	public function transfer($address, $amount, $memo) {
+		$account = json_decode($this->account());
+		$result = $this->coinbase->sendFunds($account->id, $address, $amount, $this->symbol, $memo);
+		$status = (!empty($result) && $result['id'] && $result['amount']['amount'] && $result['amount']['currency'] == $this->symbol && $result['description'] == $memo) ? array('status' => true, 'symbol' => $this->symbol, 'address' => $address, 'description' => $memo, 'amount' => $amount, 'response' => json_encode($result)) : array('status' => false, 'msg' => $result);
+		return json_encode($status);
+	}
+}

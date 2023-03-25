@@ -1,0 +1,13 @@
+{
+    "name": "Expert",
+    "alias": "expert",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Expert\\Providers\\ExpertServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

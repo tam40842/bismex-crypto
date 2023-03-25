@@ -1,0 +1,23 @@
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'bitstrading';
+  font-style: normal;
+  font-weight: normal;
+ 
+  /* fix buttons height */
+  line-height: 1em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+}
+ 
+.icon-network:before{*zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x0041;&nbsp;');}
+.icon-profile:before{*zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x0042;&nbsp;');}
+.icon-sell:before{*zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x0043;&nbsp;');}
+.icon-support:before{*zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x0044;&nbsp;');}
+.icon-trading:before{*zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x0045;&nbsp;');}
+.icon-wallet:before{*zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x0046;&nbsp;');}
+.icon-commission:before{*zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x0047;&nbsp;');}
+.icon-history:before{*zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x0048;&nbsp;');}
+.icon-logout:before{*zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x0049;&nbsp;');}
+.icon-money:before{*zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x004a;&nbsp;');}
+.icon-buy:before{*zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x0063;&nbsp;');}

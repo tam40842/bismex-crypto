@@ -1,0 +1,13 @@
+{
+    "name": "AntiCheat",
+    "alias": "anticheat",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\AntiCheat\\Providers\\AntiCheatServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

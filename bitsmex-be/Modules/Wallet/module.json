@@ -1,0 +1,13 @@
+{
+    "name": "Wallet",
+    "alias": "wallet",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Wallet\\Providers\\WalletServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

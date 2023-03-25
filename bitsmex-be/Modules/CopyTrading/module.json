@@ -1,0 +1,13 @@
+{
+    "name": "CopyTrading",
+    "alias": "copytrading",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\CopyTrading\\Providers\\CopyTradingServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

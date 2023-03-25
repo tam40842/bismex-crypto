@@ -1,0 +1,33 @@
+{
+    "config":{
+        "database": {
+            "host": "localhost",
+            "protocol":"mongodb",
+            "port":"27017",
+            "username":"",
+            "password":"",
+            "schema":"/binance"
+        },
+        "stream": {
+            "binance": {
+                "protocol":"wss",
+                "host": "fstream.binance.com",
+                "path":"/stream"
+            }
+        },
+        "api":{
+            "price": "https://api.binance.com/api/v3/avgPrice?symbol="
+        },
+        "mysql" : {
+            "host": "localhost",
+            "database": "bits",
+            "username":"bitsdev",
+            "password":"Bits!1234@"
+        },
+        "redis" : {
+            "host": "localhost",
+            "port": 1000
+        },
+        "candle_round": "30s"
+    }
+}

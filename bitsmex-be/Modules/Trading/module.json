@@ -1,0 +1,13 @@
+{
+    "name": "Trading",
+    "alias": "trading",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Trading\\Providers\\TradingServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

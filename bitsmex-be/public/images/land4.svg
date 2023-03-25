@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="270" height="65.077" viewBox="0 0 270 65.077">
+  <g id="Group_18244" data-name="Group 18244" transform="translate(-835 -1582.175)">
+    <rect id="Rectangle_97" data-name="Rectangle 97" width="270" height="65.077" rx="20" transform="translate(835 1582.175)" fill="#dc4b2c"/>
+    <g id="LOWER" transform="translate(889.182 1598.37)">
+      <g id="Group_84" data-name="Group 84" transform="translate(0 12.729)">
+        <path id="Path_3233" data-name="Path 3233" d="M1746.522,840.892V827.557h6.584v13.335" transform="translate(-1746.522 -827.557)" fill="#fff"/>
+        <rect id="Rectangle_41" data-name="Rectangle 41" width="6.584" height="4.243" transform="translate(17.358 9.092)" fill="#fff"/>
+        <rect id="Rectangle_42" data-name="Rectangle 42" width="6.584" height="9.092" transform="translate(8.679 4.243)" fill="#fff"/>
+      </g>
+      <path id="Path_3234" data-name="Path 3234" d="M1748.947,814.821l6.667,6.668,3.637-3.637,9.092,9.092,1.819-1.818v6.061H1764.1l1.818-1.818-6.668-6.667-3.637,3.637-9.092-9.092Z" transform="translate(-1746.522 -814.821)" fill="#fff"/>
+    </g>
+    <text id="LOWER-2" data-name="LOWER" transform="translate(959.317 1622.113)" fill="#fff" font-size="18" font-family="Arial-BoldMT, Arial" font-weight="700" letter-spacing="-0.01em"><tspan x="0" y="0">LOWER</tspan></text>
+  </g>
+</svg>

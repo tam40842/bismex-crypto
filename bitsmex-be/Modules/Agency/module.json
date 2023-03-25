@@ -1,0 +1,13 @@
+{
+    "name": "Agency",
+    "alias": "agency",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Agency\\Providers\\AgencyServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

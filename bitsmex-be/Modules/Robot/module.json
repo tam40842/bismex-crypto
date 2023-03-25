@@ -1,0 +1,13 @@
+{
+    "name": "Robot",
+    "alias": "robot",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Robot\\Providers\\RobotServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

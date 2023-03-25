@@ -1,0 +1,60 @@
+.layout__area--top.header-chart-panel {
+  background: #2A2B30;
+}
+.chart-page .apply-common-tooltip, .chart-page .button.undo, .chart-page .button.redo,
+.chart-page .symbol-edit-widget .symbol-edit-inputspacer input.symbol-edit {
+  background: #2A2B30 !important;
+  border-color: #444 !important;
+  color: #fff!important;
+}
+body, .chart-controls-bar, #footer-chart-panel{
+  background-color: #2A2B30 !important;
+}
+.chart-page .chart-container {
+  background: none !important;
+  border-color: #444 !important; 
+}
+.drawingToolbar-2CoOuCv8-{
+  background-color: #2A2B30;
+}
+.separator-3cgsM4c1-{
+  background-color: #666;
+}
+a.button.getimage.apply-common-tooltip {
+  display: none;
+}
+
+html.theme-light .group-wWM3zP_M- {
+  background: #2A2B30 !important;
+}
+html.theme-dark .group-wWM3zP_M- {
+  background: #2A2B30 !important;
+}
+body, .chart-controls-bar, #footer-chart-panel {
+  background-color: #2A2B30 !important;
+}
+
+.chart-container.active {
+  border: none!important;
+}
+
+.date-range-list {
+  display: none;
+}
+@media only screen and (max-width: 410px) {
+  .header-chart-panel .group.header-group-indicators,
+  .header-chart-panel .group.header-group-bars-style 
+  {
+    display: inline-block!important;
+  }
+}
+
+@media only screen and (max-width: 567px) {
+  .header-chart-panel .group.header-group-bars-style {
+    display: inline-block!important;
+  }
+}
+
+.favored-list-container span.submenu {
+  display: none;
+}

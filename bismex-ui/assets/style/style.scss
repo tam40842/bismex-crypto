@@ -1,0 +1,318 @@
+html {
+	--scrollbarBG: #19232a;
+	--thumbBG: #03a593;
+	--thumbBGHover: #03a593;
+}
+
+* {
+	scrollbar-width: thin !important;
+	scrollbar-color: var(--thumbBG) var(--scrollbarBG) !important;
+}
+
+::-webkit-scrollbar {
+	width: 5px;
+	height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background-color: var(--scrollbarBG);
+	border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: var(--thumbBG);
+	border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: var(--thumbBGHover);
+}
+
+// ::-webkit-scrollbar-track {
+//   background: var(--scrollbarBG) !important;
+// }
+
+// ::-webkit-scrollbar-thumb {
+//   background-color: var(--thumbBG);
+//   border-radius: 6px;
+//   border: 3px solid var(--scrollbarBG);
+// }
+
+body {
+	font-family: "Ruda", sans-serif !important;
+	padding-bottom: env(safe-area-inset-bottom);
+	overflow: hidden;
+}
+
+button,
+input {
+	font-family: "Ruda", sans-serif !important;
+
+	&:focus {
+		outline: none;
+	}
+}
+
+#board {
+	background: linear-gradient(to bottom, #032e3d, #19232a);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	@screen xl {
+		max-width: calc(100vw - 112px);
+	}
+}
+
+.v-main {
+	background-color: #192429;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+input[type="number"] {
+	-moz-appearance: textfield;
+}
+
+.v-card-linear {
+	background-color: transparent !important;
+	background-image: linear-gradient(
+		0deg,
+		rgba(8, 63, 106, 0.8) 0%,
+		rgba(3, 37, 69, 0.8) 100%
+	);
+}
+
+.text-right input {
+	text-align: right;
+}
+
+.text-center input {
+	text-align: center;
+}
+
+.button {
+	z-index: 0;
+
+	&::before,
+	&::after {
+		content: "";
+		position: absolute;
+		left: 0;
+		width: 100%;
+		height: 50%;
+		z-index: -1;
+	}
+
+	&-buy {
+		&::before {
+			top: 0;
+			background-color: #13eac2;
+		}
+
+		&::after {
+			bottom: 0;
+			background-color: #08d5ae;
+		}
+	}
+
+	&-sell {
+		&::before {
+			top: 0;
+			background-color: #ff272b;
+		}
+
+		&::after {
+			bottom: 0;
+			background-color: #d71a1e;
+		}
+	}
+}
+
+.v-card-linear {
+	background-color: transparent !important;
+	background-image: linear-gradient(
+		0deg,
+		rgba(8, 63, 106, 0.8) 0%,
+		rgba(3, 37, 69, 0.8) 100%
+	);
+}
+
+.theme--light.v-btn.v-btn--disabled.v-btn--has-bg {
+	background-color: #92929290 !important;
+}
+
+.checkbox {
+	.v-icon {
+		color: #eba900 !important;
+	}
+}
+
+#history {
+	th {
+		font-size: 16px;
+	}
+}
+
+.theme--light.v-skeleton-loader .v-skeleton-loader__actions,
+.theme--light.v-skeleton-loader .v-skeleton-loader__article,
+.theme--light.v-skeleton-loader .v-skeleton-loader__card-heading,
+.theme--light.v-skeleton-loader .v-skeleton-loader__card-text,
+.theme--light.v-skeleton-loader .v-skeleton-loader__date-picker,
+.theme--light.v-skeleton-loader .v-skeleton-loader__list-item,
+.theme--light.v-skeleton-loader .v-skeleton-loader__list-item-avatar,
+.theme--light.v-skeleton-loader .v-skeleton-loader__list-item-text,
+.theme--light.v-skeleton-loader .v-skeleton-loader__list-item-two-line,
+.theme--light.v-skeleton-loader .v-skeleton-loader__list-item-avatar-two-line,
+.theme--light.v-skeleton-loader .v-skeleton-loader__list-item-three-line,
+.theme--light.v-skeleton-loader .v-skeleton-loader__list-item-avatar-three-line,
+.theme--light.v-skeleton-loader .v-skeleton-loader__table-heading,
+.theme--light.v-skeleton-loader .v-skeleton-loader__table-thead,
+.theme--light.v-skeleton-loader .v-skeleton-loader__table-tbody,
+.theme--light.v-skeleton-loader .v-skeleton-loader__table-tfoot {
+	@apply t-bg-transparent #{!important};
+}
+
+.v-application .btn-primary {
+	background-color: #03a593 !important;
+	border-color: #03a593 !important;
+}
+
+.v-tab {
+	text-transform: none !important;
+}
+
+.v-btn {
+	text-transform: none !important;
+}
+
+.checkbox .v-icon {
+	color: white !important;
+}
+
+.ck.ck-toolbar > .ck-toolbar__items {
+	justify-content: center !important;
+}
+
+.ck.ck-dropdown.ck-heading-dropdown .ck-dropdown__button .ck-button__label {
+	color: #1e6578;
+	font-weight: 900;
+}
+
+.ck.ck-editor__editable_inline {
+	height: 200px;
+}
+
+.deposit.v-text-field.v-text-field--solo .v-input__control input {
+	color: white !important;
+}
+
+.twofa.v-text-field.v-text-field--solo .v-input__control input {
+	color: white !important;
+}
+
+.member.v-text-field.v-text-field--solo .v-input__control input {
+	color: white !important;
+}
+
+.calculator.v-text-field.v-text-field--solo .v-input__control {
+	min-height: 35px !important;
+}
+.calculator.v-text-field input {
+	flex: none !important;
+}
+
+.select .v-input .v-input__control .v-input__slot .v-select__slot {
+	background: black !important;
+	border-radius: 10px;
+}
+
+.btn-calculator:hover {
+	color: #03a593 !important;
+}
+
+.auth-select .v-menu__content {
+	transform: translateY(-80px);
+}
+
+.auth-select .v-menu__content .v-list {
+	background: black !important;
+}
+
+.auth-select .v-menu__content .v-list .v-list-item {
+	color: white !important;
+}
+
+.member-btn:hover {
+	color: #03a593 !important;
+}
+
+.board-header .v-input {
+	width: 170px;
+}
+
+.board-header .v-input .v-input__control .v-text-field__details {
+	display: none !important;
+}
+
+.board-header .v-toolbar .v-input {
+	padding: 0;
+	top: 0;
+}
+
+// Mobile: width < 740px
+@media only screen and (max-width: 46.1875em) {
+	.board-header .v-input {
+		width: 60px;
+	}
+	.board-balance {
+		width: 120px !important;
+	}
+}
+
+.manager-width .v-input .v-input__control {
+	max-width: 300px !important;
+}
+
+.manager-table .v-data-table .v-data-table__wrapper table .v-data-table-header {
+	background-color: #00695d !important;
+}
+
+.manager-table
+	.v-data-table
+	.v-data-table__wrapper
+	table
+	.v-data-table-header
+	> tr
+	> th
+	> span {
+	color: white;
+}
+
+.manager-table .v-data-table .v-data-table__wrapper table tbody tr {
+	background-color: #19232a;
+}
+
+.manager-table .v-data-table .v-data-table__wrapper table tbody tr:hover {
+	background-color: #153f41 !important;
+}
+
+.manager-table .v-data-table .v-data-table__wrapper table tbody tr td {
+	color: white;
+	font-weight: 700;
+}
+
+.board-header .v-input .v-input__control .v-input__slot {
+	border: none !important;
+}
+
+#devices .v-menu__content {
+	z-index: 999 !important;
+}
